@@ -104,11 +104,11 @@
         Forced = No;
         Name = wmnet.WMNET;
         BuggyApplication = No;
-        AutoLaunch = No;
+        AutoLaunch = Yes;
         Position = "0,3";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "wmnet %s";
-        Command = wmnet;
+        Command = "wmnet -d 1000000 -W wlan0";
       },
       {
         Forced = No;
