@@ -21,8 +21,13 @@
   WindowRelaunchKey = None;
   WindowShortcut4Key = None;
   NoWindowOverDock = NO;
-  LBCMaximizeKey = None;
+  WorkspaceBack = (
+    spixmap,
+    "/home/oo/GNUstep/Library/WindowMaker/Backgrounds/11.jpg",
+    gray20
+  );
   HighlightTextColor = "#000000";
+  LBCMaximizeKey = None;
   ClipAutoexpandDelay = "";
   WindowShortcut9Key = None;
   HelpBalloons = NO;
@@ -35,16 +40,16 @@
   MoveToPrevWorkspaceKey = None;
   MoveToWorkspace6Key = None;
   Workspace4Key = "Mod4+4";
-  MoveToWorkspace10Key = None;
   DisplayFont = "sans serif:pixelsize=12:xlfd=-*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*";
+  MoveToWorkspace10Key = None;
   BHMaximizeKey = None;
   WorkspaceBorderSize = 0;
   CycleActiveHeadOnly = YES;
   Workspace1Key = "Mod4+1";
   Workspace2Key = "Mod4+2";
-  DockRaiseLowerKey = None;
-  MoveToWorkspace1Key = None;
   Workspace3Key = "Mod4+3";
+  MoveToWorkspace1Key = None;
+  DockRaiseLowerKey = None;
   WindowShortcut1Key = None;
   ShowClipTitle = YES;
   RHMaximizeKey = "Mod4+Right";
@@ -66,9 +71,9 @@
   OpaqueMoveResizeKeyboard = NO;
   MoveToLastWorkspaceKey = None;
   GroupNextKey = None;
+  Attraction = NO;
   MenuTextColor = "#000000";
   SingleClickLaunch = NO;
-  Attraction = NO;
   AntialiasedText = YES;
   DisableBlinking = NO;
   MoveToWorkspace5Key = None;
@@ -78,7 +83,7 @@
   ScreenSwitchKey = None;
   MoveToNextWorkspaceKey = None;
   HMaximizeKey = None;
-  CloseKey = "Mod4+Q";
+  CloseKey = "Mod4+W";
   HighlightColor = "#ffffff";
   FocusMode = sloppy;
   GroupPrevKey = None;

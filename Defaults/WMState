@@ -63,11 +63,21 @@
         Forced = No;
         Name = wmpomme.wmpomme;
         BuggyApplication = No;
-        AutoLaunch = No;
+        AutoLaunch = Yes;
         Position = "0,6";
         Lock = No;
         PasteCommand = "wmpomme %s";
         Command = wmpomme;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
       }
     );
     AutoRaiseLower = No;
@@ -134,11 +144,21 @@
         Forced = No;
         Name = wmpomme.wmpomme;
         BuggyApplication = No;
-        AutoLaunch = No;
+        AutoLaunch = Yes;
         Position = "0,6";
         Lock = No;
         PasteCommand = "wmpomme %s";
         Command = wmpomme;
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,7";
+        Lock = No;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
       }
     );
     Lowered = No;
