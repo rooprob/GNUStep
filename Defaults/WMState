@@ -154,7 +154,7 @@
         Forced = No;
         Name = wmclock.WMClock;
         BuggyApplication = No;
-        AutoLaunch = No;
+        AutoLaunch = Yes;
         Position = "0,7";
         Lock = No;
         PasteCommand = "wmclock %s";
