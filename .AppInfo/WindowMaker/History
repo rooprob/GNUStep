@@ -1,1 +1,1 @@
-(firefox, "ps uawx", "google-chrome", chrome)
+("google-chrome", "google-chrome", firefox, "ps uawx", chrome)
