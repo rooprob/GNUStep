@@ -21,13 +21,14 @@
       },
       {
         Forced = No;
-        Name = wmbattery.wmbattery;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,2";
         Lock = Yes;
-        PasteCommand = "wmbattery %s";
-        Command = wmbattery;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
       },
       {
         Forced = No;
@@ -45,9 +46,9 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,4";
-        Lock = No;
-        PasteCommand = "firefox %s";
-        Command = firefox;
+        Lock = Yes;
+        PasteCommand = "x-www-browser %s";
+        Command = "x-www-browser";
       },
       {
         Forced = No;
@@ -55,9 +56,9 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,5";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "x-terminal-emulator %s";
-        Command = "x-terminal-emulator";
+        Command = "x-terminal-emulator --layout Server";
       },
       {
         Forced = No;
@@ -65,7 +66,7 @@
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,6";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "wmpomme %s";
         Command = wmpomme;
       },
@@ -75,12 +76,12 @@
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,7";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "wmclock %s";
         Command = wmclock;
       }
     );
-    AutoRaiseLower = No;
+    AutoRaiseLower = Yes;
     Applications = (
       {
         Forced = No;
@@ -102,13 +103,14 @@
       },
       {
         Forced = No;
-        Name = wmbattery.wmbattery;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,2";
         Lock = Yes;
-        PasteCommand = "wmbattery %s";
-        Command = wmbattery;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
       },
       {
         Forced = No;
@@ -126,9 +128,9 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,4";
-        Lock = No;
-        PasteCommand = "firefox %s";
-        Command = firefox;
+        Lock = Yes;
+        PasteCommand = "x-www-browser %s";
+        Command = "x-www-browser";
       },
       {
         Forced = No;
@@ -136,9 +138,9 @@
         BuggyApplication = No;
         AutoLaunch = No;
         Position = "0,5";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "x-terminal-emulator %s";
-        Command = "x-terminal-emulator";
+        Command = "x-terminal-emulator --layout Server";
       },
       {
         Forced = No;
@@ -146,7 +148,7 @@
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,6";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "wmpomme %s";
         Command = wmpomme;
       },
@@ -156,13 +158,13 @@
         BuggyApplication = No;
         AutoLaunch = Yes;
         Position = "0,7";
-        Lock = No;
+        Lock = Yes;
         PasteCommand = "wmclock %s";
         Command = wmclock;
       }
     );
-    Lowered = No;
-    Position = "-64,0";
+    Lowered = Yes;
+    Position = "-64,20";
   };
   Clip = {
     Forced = No;

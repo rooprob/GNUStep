@@ -1,12 +1,12 @@
 {
-  soffice.Soffice = {
-    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  firefox.Firefox = {
+    Icon = "google-chrome.png";
   };
   roxterm.Roxterm = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/roxterm.Roxterm.xpm";
   };
-  firefox.Firefox = {
-    Icon = "~/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  soffice.Soffice = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
   };
   color_palette.Gimp = {
     AlwaysUserIcon = Yes;
@@ -38,9 +38,18 @@
   nemo.Nemo = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/nemo.Nemo.xpm";
   };
+  xload.XLoad = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/xload.XLoad.xpm";
+  };
+  screenshot.Screenshot = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/screenshot.Screenshot.xpm";
+  };
   toolbox.Gimp = {
     NoAppIcon = Yes;
     Icon = "wmaker-gimp2.tif";
+  };
+  gedit.Gedit = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
   };
   WMSoundServer = {
     Icon = Sound.tiff;
@@ -65,6 +74,12 @@
   Rxvt = {
     Icon = GNUterm.tiff;
   };
+  "gdebi-gtk.Gdebi-gtk" = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gdebi-gtk.Gdebi-gtk.xpm";
+  };
+  "sun-awt-X11-XFramePeer.org-apache-jmeter-NewDriver" = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.org-apache-jmeter-NewDriver.xpm";
+  };
   "Script-fu" = {
     Icon = "wmaker-gimp-script-fu.tif";
   };
@@ -85,6 +100,9 @@
   "sun-awt-X11-XEmbeddedFramePeer.sun-applet-PluginMain" = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XEmbeddedFramePeer.sun-applet-PluginMain.xpm";
   };
+  "file-roller.File-roller" = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
+  };
   "Mozilla-bin" = {
     Icon = "wmaker-nav.tif";
   };
@@ -94,14 +112,11 @@
   gvim.Gvim = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gvim.Gvim.xpm";
   };
+  xsane.Xsane = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/xsane.Xsane.xpm";
+  };
   "gnome-panel.Gnome-panel" = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-panel.Gnome-panel.xpm";
-  };
-  "*" = {
-    Icon = defaultAppIcon.tiff;
-  };
-  Logo.WMClip = {
-    Icon = clip.tiff;
   };
   "gnome-terminal.Gnome-terminal" = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal.Gnome-terminal.xpm";
@@ -118,10 +133,16 @@
     KeepOnTop = Yes;
     NoCloseButton = Yes;
   };
+  "gconf-editor.Gconf-editor" = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gconf-editor.Gconf-editor.xpm";
+  };
   indexed_color_palette.Gimp = {
     AlwaysUserIcon = Yes;
     NoResizebar = Yes;
     Icon = "wmaker-gimp-palette.tif";
+  };
+  gimp.Gimp = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/gimp.Gimp.xpm";
   };
   "script-fu.Script-fu" = {
     Icon = "wmaker-gimp-script-fu.tif";
@@ -141,6 +162,9 @@
     AlwaysUserIcon = Yes;
     Icon = "wmaker-gimp-gradient.tif";
   };
+  "Qt-subapplication.VirtualBox" = {
+    Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/Qt-subapplication.VirtualBox.xpm";
+  };
   sublime_text.Sublime_text = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/sublime_text.Sublime_text.xpm";
   };
@@ -157,9 +181,6 @@
   };
   "sun-awt-X11-XFramePeer.sun-applet-PluginMain" = {
     Icon = "/home/oo/GNUstep/Library/WindowMaker/CachedPixmaps/sun-awt-X11-XFramePeer.sun-applet-PluginMain.xpm";
-  };
-  Logo.WMPanel = {
-    Icon = GNUstep.tiff;
   };
   XTerm = {
     Icon = GNUterm.tiff;
